@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<type name="DeploiementCommune" superclass="com.jalios.jcms.Content" debatable="false" unitFieldEdition="true" audienced="false" categoryTab="true" readRightTab="true" updateRightTab="true" templateTab="true" workflowTab="true" advancedTab="true" titleML="false">
+  <label xml:lang="fr">Déploiement commune</label>
+  <title ml="false">
+    <label xml:lang="fr">Titre</label>
+  </title>
+  <fields>
+    <field name="commune" editor="link" required="false" compactDisplay="false" type="generated.City" parent="false">
+      <label xml:lang="fr">Commune</label>
+    </field>
+    <field name="epci" editor="category" required="true" compactDisplay="false" type="java.util.TreeSet" chooser="tree" exclusive="true" root="$jcmsplugin.numerique.deploiementcommune.epci.root" ml="false" descriptionType="text" searchable="false" html="false" checkHtml="true" displayRoot="false">
+      <label xml:lang="fr">EPCI</label>
+    </field>
+    <field name="description" editor="textarea" required="true" type="String" searchable="true" abstract="true" wiki="true" rows="5" cols="80" compactDisplay="false" ml="false">
+      <label xml:lang="fr">Description</label>
+    </field>
+    <field name="calendrierTravauxWysiwyg" editor="wysiwyg" required="false" compactDisplay="false" type="String" searchable="true" rows="16" cols="100" ml="false" toolbars="basic,format" checkHtml="true" inline="true">
+      <label xml:lang="fr">Calendrier wysiwyg</label>
+    </field>
+    <field name="calendrierTravauxDocuments" editor="link" required="false" compactDisplay="false" type="com.jalios.jcms.FileDocument[]" ml="false">
+      <label xml:lang="fr">Calendrier documents</label>
+    </field>
+    <field name="cartesTravaux" editor="wysiwyg" required="false" compactDisplay="false" type="String" searchable="true" rows="16" cols="100" ml="false" toolbars="basic,format" checkHtml="true" inline="true">
+      <label xml:lang="fr">Cartes</label>
+    </field>
+    <field name="cartesTravauxDocuments" editor="link" required="false" compactDisplay="false" type="com.jalios.jcms.FileDocument[]" ml="false">
+      <label xml:lang="fr">Cartes documents</label>
+    </field>
+    <field name="ressourcesUtiles" editor="wysiwyg" required="false" compactDisplay="false" type="String" searchable="true" rows="16" cols="100" ml="false" toolbars="basic,format" checkHtml="true" inline="true" descriptionType="text" html="false">
+      <label xml:lang="fr">Documents et ressources utiles</label>
+    </field>
+    <field name="ressourcesUtilesDocuments" editor="link" required="false" compactDisplay="false" type="com.jalios.jcms.FileDocument[]" ml="false" descriptionType="text" searchable="false" html="false" checkHtml="true">
+      <label xml:lang="fr">Documents et ressources utiles documents</label>
+    </field>
+  </fields>
+</type>
+

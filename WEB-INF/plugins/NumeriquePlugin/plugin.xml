@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin PUBLIC "-//JALIOS//DTD JCMS-PLUGIN 1.7//EN" "https://community.jalios.com/dtd/jcms-plugin-1.7.dtd">
+
+<plugin name="NumeriquePlugin" version="0.2" author="DEP44" license="DEP44" initialize="true" jcms="" order="0" url="" jsync="false" appserver="">
+  
+  <label xml:lang="fr">NumeriquePlugin</label>
+  <description xml:lang="fr">Ajout des fonctions de géolocalisation pour les types de contenus</description>
+
+  <dependencies>
+    <dependency name="SoclePlugin" />
+  </dependencies>
+  
+  <types>
+    <type name="DeploiementCommune"></type>
+    
+    <templates type="DeploiementCommune">
+        <template name="default" file="doDeploiementCommuneFullDisplay.jsp" usage="full">
+            <label xml:lang="fr">DS44 : gabarit par défaut</label>
+        </template>
+    </templates>
+  </types>
+  
+  <private-files>
+    <directory path="properties" />
+  </private-files>
+  
+  <public-files>
+    <directory path="images" />
+    <directory path="js" />
+    <directory path="docs" />
+    <directory path="jsp" />
+  </public-files>
+</plugin>

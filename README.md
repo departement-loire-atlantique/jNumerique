@@ -1,7 +1,7 @@
 # jNumerique
 Module dédié au site Numérique
 <p>
-  <a href="https://travis-ci.com/organizations/departement-loire-atlantique">
+  <a href="https://app.travis-ci.com/github/departement-loire-atlantique/jNumerique">
     <img src="https://app.travis-ci.com/departement-loire-atlantique/jNumerique.svg?branch=master" />
   </a>
   <a href="https://sonarcloud.io/organizations/departement-loire-atlantique">

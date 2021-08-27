@@ -2,7 +2,7 @@
 Module dédié au site Numérique
 <p>
   <a href="https://travis-ci.com/organizations/departement-loire-atlantique">
-    <img src="https://travis-ci.com/departement-loire-atlantique/jNumerique.svg?branch=master" />
+    <img src="https://app.travis-ci.com/departement-loire-atlantique/jNumerique.svg?branch=master" />
   </a>
   <a href="https://sonarcloud.io/organizations/departement-loire-atlantique">
     <img src="https://sonarcloud.io/api/project_badges/measure?project=departement-loire-atlantique_jNumerique&metric=ncloc" />
